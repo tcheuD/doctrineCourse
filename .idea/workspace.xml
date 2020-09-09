@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838fee2e-db02-47a3-8e17-d7f7cdeffc8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599377281477</updated>
       <workItem from="1599377282539" duration="912000" />
-      <workItem from="1599378963514" duration="4764000" />
+      <workItem from="1599378963514" duration="5020000" />
     </task>
     <task id="LOCAL-00001" summary="2 - make:docker:database">
       <created>1599640925237</created>
@@ -162,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599640925237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6 - Entity Class">
+      <created>1599659709936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599659709936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +171,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 - make:docker:database" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 - make:docker:database" />
+    <MESSAGE value="6 - Entity Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 - Entity Class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599640924948">
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599659709698">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599640924948" />
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599659709698" />
     <state x="583" y="205" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599381465630">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
@@ -185,13 +187,13 @@
       <screen x="0" y="28" width="1600" height="838" />
     </state>
     <state x="370" y="181" width="850" height="539" key="IDE.errors.dialog/0.28.1600.838@0.28.1600.838" timestamp="1599378146777" />
-    <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1599640929084">
+    <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1599659711436">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2/0.28.1600.838@0.28.1600.838" timestamp="1599640929084" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599644118057">
+    <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2/0.28.1600.838@0.28.1600.838" timestamp="1599659711436" />
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599659917507">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599644118057" />
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599659917507" />
   </component>
 </project>
