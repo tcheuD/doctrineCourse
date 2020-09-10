@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="838fee2e-db02-47a3-8e17-d7f7cdeffc8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +153,7 @@
       <updated>1599377281477</updated>
       <workItem from="1599377282539" duration="912000" />
       <workItem from="1599378963514" duration="8059000" />
+      <workItem from="1599723892398" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="2 - make:docker:database">
       <created>1599640925237</created>
@@ -230,9 +229,9 @@
       <screen x="0" y="28" width="1600" height="838" />
     </state>
     <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2/0.28.1600.838@0.28.1600.838" timestamp="1599659711436" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599660233502">
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599725163070">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599660233502" />
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599725163070" />
   </component>
 </project>
