@@ -60,6 +60,8 @@ EOF
             $question->setAskedAt(new \DateTime(sprintf('-%d days', random_int(1, 100))));
         }
 
+        $question->setVotes(random_int(-20, 50));
+
         $entityManager->persist($question);
         $entityManager->flush();
 

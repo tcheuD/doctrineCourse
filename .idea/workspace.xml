@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="838fee2e-db02-47a3-8e17-d7f7cdeffc8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +153,7 @@
       <updated>1599377281477</updated>
       <workItem from="1599377282539" duration="912000" />
       <workItem from="1599378963514" duration="8059000" />
-      <workItem from="1599723892398" duration="2369000" />
+      <workItem from="1599723892398" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="2 - make:docker:database">
       <created>1599640925237</created>
@@ -209,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599725905233</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="14 - Reusing Query Logic &amp; Param Converters">
+      <created>1599726309519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726309519</updated>
+    </task>
+    <task id="LOCAL-00010" summary="15 - Automatic Controller Queries: Param Converter">
+      <created>1599726562640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726562640</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,13 +240,15 @@
     <MESSAGE value="10 - Entity objects in Twig" />
     <MESSAGE value="12 - Custom Repository Class" />
     <MESSAGE value="13 - DQL &amp; The Query Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 - DQL &amp; The Query Builder" />
+    <MESSAGE value="14 - Reusing Query Logic &amp; Param Converters" />
+    <MESSAGE value="15 - Automatic Controller Queries: Param Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 - Automatic Controller Queries: Param Converter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599725905122">
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599726562546">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599725905122" />
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599726562546" />
     <state x="583" y="205" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599381465630">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
@@ -243,9 +261,9 @@
       <screen x="0" y="28" width="1600" height="838" />
     </state>
     <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2/0.28.1600.838@0.28.1600.838" timestamp="1599659711436" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599725163070">
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599726954093">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599725163070" />
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599726954093" />
   </component>
 </project>
