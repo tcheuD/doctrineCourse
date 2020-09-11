@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838fee2e-db02-47a3-8e17-d7f7cdeffc8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/doctrineSf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doctrineSf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200911122900.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/QuestionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +163,7 @@
       <workItem from="1599377282539" duration="912000" />
       <workItem from="1599378963514" duration="8059000" />
       <workItem from="1599723892398" duration="4599000" />
-      <workItem from="1599812039348" duration="6313000" />
+      <workItem from="1599812039348" duration="7304000" />
     </task>
     <task id="LOCAL-00001" summary="2 - make:docker:database">
       <created>1599640925237</created>
@@ -285,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599817232018</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="22 - Sluggable: Doctrine Extensions">
+      <created>1599818539875</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599818539875</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,17 +307,18 @@
     <MESSAGE value="19 - Data Fixtures" />
     <MESSAGE value="20 - Foundry: Fixture Model Factories" />
     <MESSAGE value="21 - Foundry Tricks" />
-    <option name="LAST_COMMIT_MESSAGE" value="21 - Foundry Tricks" />
+    <MESSAGE value="22 - Sluggable: Doctrine Extensions" />
+    <option name="LAST_COMMIT_MESSAGE" value="22 - Sluggable: Doctrine Extensions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="205" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599814227163">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
     <state x="533" y="205" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.28.1600.838@0.28.1600.838" timestamp="1599814227163" />
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599817231935">
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599818539790">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599817231935" />
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599818539790" />
     <state x="583" y="205" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599744330245">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
@@ -331,9 +331,9 @@
       <screen x="0" y="28" width="1600" height="838" />
     </state>
     <state x="395" y="181" width="800" height="538" key="Vcs.Push.Dialog.v2/0.28.1600.838@0.28.1600.838" timestamp="1599659711436" />
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599818298264">
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1599827284734">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599818298264" />
+    <state x="463" y="187" width="672" height="678" key="search.everywhere.popup/0.28.1600.838@0.28.1600.838" timestamp="1599827284734" />
   </component>
 </project>
