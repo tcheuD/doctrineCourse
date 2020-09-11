@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838fee2e-db02-47a3-8e17-d7f7cdeffc8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/doctrineSf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doctrineSf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +129,8 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h80C7Sruv3AntGUcLQNcJ7AKhF" />
@@ -153,7 +159,7 @@
       <workItem from="1599377282539" duration="912000" />
       <workItem from="1599378963514" duration="8059000" />
       <workItem from="1599723892398" duration="4599000" />
-      <workItem from="1599812039348" duration="1889000" />
+      <workItem from="1599812039348" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="2 - make:docker:database">
       <created>1599640925237</created>
@@ -239,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599813098937</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="18 - Update Query &amp; Rich vs Anemic Models">
+      <created>1599813945470</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599813945470</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,13 +271,18 @@
     <MESSAGE value="15 - Automatic Controller Queries: Param Converter" />
     <MESSAGE value="16 - Smarter Entity Methods" />
     <MESSAGE value="17 - Request Object &amp; POST Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 - Request Object &amp; POST Data" />
+    <MESSAGE value="18 - Update Query &amp; Rich vs Anemic Models" />
+    <option name="LAST_COMMIT_MESSAGE" value="18 - Update Query &amp; Rich vs Anemic Models" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599813098785">
+    <state x="533" y="205" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599814227163">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
-    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599813098785" />
+    <state x="533" y="205" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.28.1600.838@0.28.1600.838" timestamp="1599814227163" />
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2" timestamp="1599813945409">
+      <screen x="0" y="28" width="1600" height="838" />
+    </state>
+    <state x="343" y="28" width="903" height="838" key="CommitChangelistDialog2/0.28.1600.838@0.28.1600.838" timestamp="1599813945409" />
     <state x="583" y="205" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599744330245">
       <screen x="0" y="28" width="1600" height="838" />
     </state>
